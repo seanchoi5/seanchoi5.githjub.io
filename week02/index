@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Assignment 01</title>
+
+		<!-- style type -->
+		<style type = "text/css">
+			h1 {
+				text-align: center;
+				font-family: Helvetica;
+			}
+
+			p {
+				text-align: center;
+				font-family: Helvetica;
+				font-size: 20px;
+			}
+
+			div.vannevar_pic {
+				text-align: center;
+			}
+			div.berners_pic {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>As We May Think</h1>
+			<h1 style="text-align: center; font-family: Helvetica; font-size: 18px;">Vannevar Bush, 1945</h1>
+
+			<div class="vannevar_pic">
+				<image src= "https://www.darpa.mil/DDM_Gallery/Memex-619-316%20-%20Copy.jpg">
+			</div>
+
+			<p>
+				Upon reading this article, I was impressed with Vannevar Bush's clairvoyance when he was describing the "memex" which sounded a lot like the prototype of our modern-day computer and internet.  The way he was describing the memex was very mechanical and the entire apparatus sounded a lot more analog than its modern counterpart.  It makes sense though as Vannevar Bush lived during the Industrial Era while the internet was only developed in the Digital Era but it still boggles my mind how he was able to somewhat accurately predict how we would be using the internet even though he lived generations prior to the invention of the internet. This also had me thinking what could be the next revolution after the digital/information age.  The discerning difference in Vannevar's prediction of the internet and the actual internet was that he conceived the invention to be very tangible and analog whereas the internet seems to exist on a virtual plane.  I looked into possible future predictions of what might come after the digital age and found out that people have already speculated that the Imagination Age will supercede the Information Age and, interestingly enough, the premise behind the Information Age is that technologies like virtual reality and user created content will change how we interact with each other and will increase the demand for creative workers rather than rational thinkers.
+
+			<hr/>
+
+			<h1>Long Live the Web</h1>
+			<h1 style="text-align: center; font-family: Helvetica; font-size: 18px;">Tim Berners Lee, 2010</h1>
+			<div class="berners_pic">
+				<image src= "https://www.azquotes.com/picture-quotes/quote-the-power-of-the-web-is-in-its-universality-access-by-everyone-regardless-of-disability-tim-berners-lee-68-70-95.jpg" width= "637"; height= "300";>
+			</div>
+
+			<p>
+				Tim Berners Lee discusses about how the net needs to maintain universality and democracy while maintaining the privacy of its users.  Big corporations like tech companies (Google, Facebook, etc.) hold so much personal data on their users and indirectly have control over a portion of people's lives.  Net neutrality is an ideal that we should strive for in the web but with companies holding so much of our personalized data, they are able to manipulate our experiences through targetted advertising, suggested media, etc.  There is a need to regulate a certain amount of privacy but with companies already having a monopoly of user data and government bodies not doing anything to regulate this, the public is just left exposed to the grips of these companies.  With big companies holding so much control over a big portion of the internet, the universality of the web is being jeopardized.  However, I do hold a positive outlook on the future of the web as we will find some way to maintain net neutrality and preserve the universality of the web.  I feel that the fact that the concepts of everything being decentralized-- cryptocurrency, the internet, free market-- has been trending with the overall public and society will make its push to evolve through the problems of this generation.  I feel that the Imagination Age concept is somewhat relevant in this conversation where creative thinkers will be the drivers of the next generation and will be able to break the monopolized market/internet through diverse individuality and self expression.
+			</p>
+		</main>
+	</body>
+</html>
