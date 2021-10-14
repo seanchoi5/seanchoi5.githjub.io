@@ -19,6 +19,9 @@ h1{
 .image{
 	position: relative;  /* lets you position the overlay absolutely */
 	width:  1000px;
+	border:5px solid rgb(166, 171, 165);
+	padding: 20px;
+	margin: 20px;
 }
 
 
