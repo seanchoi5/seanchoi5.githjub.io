@@ -109,7 +109,7 @@ body{
     margin-right: auto;
     margin-top: 20%;
     border-radius: 100px;
-    background: #222;
+    background: black;
 }
 
 #nose{
@@ -135,6 +135,6 @@ body{
     border-radius: 0 0 150px 150px;
     background-color: transparent;
     border-width:10px;
-    border-bottom: 10px solid #222;
+    border-bottom: 10px solid black;
 
 }
