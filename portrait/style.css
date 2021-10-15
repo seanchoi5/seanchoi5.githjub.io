@@ -16,10 +16,11 @@ body{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
 }
 
 #face {
-    height: 500px;
+    height: 480px;
     width: 350px;
     background-color: #E8BEAC;
     border-radius: 50%;
@@ -50,5 +51,90 @@ body{
     border-top-right-radius: 100%;
 }
 
+#glasses{
+    display:flex;
+}
 
+#left-frame{
+    position: relative;
+    height: 100px;
+    width: 150px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 33%;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width:10px;
+}
 
+#left-eye{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 100px;
+    background: #222;
+}
+
+#bridge{
+    position: relative;
+    top: 20px;
+    height: 10px;
+    width: 40px;
+    background-color: black;
+}
+
+#right-frame{
+    height: 100px;
+    width: 150px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 33%;
+    border-bottom-right-radius: 20%;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width:10px;
+}
+
+#right-eye{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 100px;
+    background: #222;
+}
+
+#nose{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 15%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 130px solid lightpink;
+
+}
+
+#mouth{
+    position: relative;
+    bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 0 0 150px 150px;
+    background-color: transparent;
+    border-width:10px;
+    border-bottom: 10px solid #222;
+
+}
