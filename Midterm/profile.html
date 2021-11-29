@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mt.choi profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = 'index.js'></script>
+</head>
+
+<body>
+    <div class = "logo">
+        <img src = "logo.png" class = "img" style="width:30%;max-width: 140px"> mt.choi
+    </div>
+    <div class = "navbar">
+       <ul>
+            <li class = "list active" data-color="#7882dc">
+                <a href = "index.html">
+                   <span class = "icon"><img src = "home.png" class = "img" style="width:100%;max-width:50px" ></span>
+                   <span class = "title">Home</span>
+                </a>
+            </li>
+            <li class = "list" data-color="#a078dc">
+                <a href = "profile.html">
+                    <span class = "icon"><img src = "profile.png" class = "img" style="width:100%;max-width:50px" ></span>
+                    <span class = "title">Profile</span>  
+                </a>
+            </li>
+            <li class = "list" data-color="#e682e6">
+                <a href = "https://www.mtjchoi.com/portfolio">
+                    <span class = "icon"><img src = "portfolio.png" class = "img" style="width:100%;max-width:50px" ></span>
+                    <span class = "title">Portfolio</span>  
+                </a>
+            </li>
+            <div class = "indicator"></div>
+       </ul> 
+    </div>
+
+    <div class = "self-portrait">
+        <img src = "self-portrait.png" class = "img" style="width: 60%">
+    </div>
+    <div class = "hometext">
+        <br>        
+        My name is Sean Choi and I am a freelance digital artist based in New York. I studied in NYU Tandon School of Engineering and majored in Integrated Design and Media (IDM). Learning in IDM equipped me with diverse skill sets in graphic/visual design, 3D animation, and web design.
+        <br><br>
+        I am currently working on personal projects and commissions.
+    </div>
+
+    
+
+    <script>
+        let list = document.querySelectorAll('.list');
+        for (let i = 0; i < list.length; i++){
+            list[i].onmouseover = function(){
+                let j = 0;
+                while (j < list.length){
+                    list[j++].className = 'list';
+                }
+                list[i].className = 'list active';
+            }
+        }
+
+        list.forEach(elements =>{
+            elements.addEventListener("mouseenter", function(event){
+                let bg = document.querySelector('body');
+                let color = event.target.getAttribute('data-color');
+                bg.style.backgroundColor = color;
+            })
+        }  )
+    </script>
+</body>
+</html>
+
+<!-- Navigation Bar concept was taken from "Online Tutorials"
+here is the link to the tutorial: https://www.youtube.com/watch?v=xYNYGETrHJM&ab_channel=OnlineTutorials-->

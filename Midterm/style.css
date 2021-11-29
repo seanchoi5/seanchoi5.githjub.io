@@ -1,0 +1,141 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.logo{
+    position: relative;
+    justify-content: left;
+    padding: 50px;
+    font-family: georgia;
+    font-size: 7em;
+}
+
+.self-portrait{
+    display: flex;
+    position: center;
+}
+
+.hometext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 2em;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 350px;
+    height: 90px;
+    background: #fff;
+    border-radius: 45px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.navbar ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.navbar ul li{
+    position: relative;
+    list-style: none;
+    width: 90px;
+    height: 90px;
+    z-index: 1;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+.navbar ul li a .title{
+    position: absolute;
+    top: -90px;
+    transform: translate (0%, 15%);
+    background: #fff;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.navbar ul li:hover a .title{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0%, 50%);
+}
+
+.navbar ul li a .title::before{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    bottom: -8px;
+    left: 48%;
+    transform: rotate(45deg) translateX(-50%);
+    border-radius: 2px;
+}
+
+.navbar ul .indicator {
+    position: absolute;
+    left: 40px;
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+
+.navbar ul .indicator::before {
+    content:'';
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #7BA2CC;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.navbar ul li:nth-child(1).active ~ .indicator{
+    transform: translateX(calc(90px * 0));
+}
+.navbar ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(calc(90px * 1));
+}
+.navbar ul li:nth-child(3).active ~ .indicator{
+    transform: translateX(calc(90px * 2));
+}
+
+
+.navbar ul li:nth-child(1).active ~ .indicator::before{
+    background: #7882dc;
+}
+.navbar ul li:nth-child(2).active~ .indicator::before{
+    background: #a078dc;
+}
+.navbar ul li:nth-child(3).active~ .indicator::before{
+    background: #e682e6;
+}
